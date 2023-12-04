@@ -9,6 +9,6 @@ const productSchema = new mongoose.Schema(
     }
 );
 
-const productModel = mongoose.model("quarters",productSchema);
+const productModel = mongoose.model("quarters",productSchema);  //quarters is collection name of database sbi
 
 module.exports = productModel;
